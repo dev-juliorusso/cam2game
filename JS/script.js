@@ -88,3 +88,4 @@ const loop = setInterval(() => {
 
 
 document.addEventListener('keydown', jump);
+document.addEventListener('click', jump);
