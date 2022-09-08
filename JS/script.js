@@ -16,8 +16,6 @@ const loop = setInterval(() => {
 
     const bgPosition = bg.offsetLeft;
     const popPosition = +window.getComputedStyle(pop).bottom.replace('px','');
-
-    console.log(bgPosition);
     
     if(bgPosition < -580 && popPosition < 135 && bgPosition > -705) {
 
